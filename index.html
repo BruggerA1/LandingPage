@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+			rel="stylesheet"
+		/>
+		<title>Landing Page</title>
+	</head>
+	<body>
+		<header id="header">
+			<nav id="nav-bar">
+				<a id="home-logo" href="#boop-container">
+					<img id="header-img" src="wLogo.png" alt="Logo" />
+				</a>
+
+				<a class="nav-link" href="#features-container">Services</a>
+				<a class="nav-link" href="#pricing-container">Pricing</a>
+				<a class="nav-link" href="#video">Video</a>
+				<a class="nav-link" href="#form">Sign-Up</a>
+			</nav>
+		</header>
+
+		<div id="boop-container" class="flex-container theme">
+			<img id="profile-pic" src="beeperProfile.JPG" alt="Boop" />
+			<div id="profile-info">
+				<div id="profile-name">
+					<h1>Lord Winston</h1>
+					<h5>PhD, Business Economics, Harvard Business School</h5>
+				</div>
+				<p>(Paragraph #1) - Description of Winston's Business Expertise.</p>
+
+				<p>(Paragraph #2) - Description of the Tax / Business Services.</p>
+
+				<p>(Paragraph #3) - Exclusive Web Offer / Ad information.</p>
+			</div>
+		</div>
+
+		<div id="features-container" class="flex-container theme">
+			<div class="service-container">
+				<span id="paid-icon" class="material-icons-round"> work </span>
+				<span class="service"> Service #1 Description. </span>
+			</div>
+			<div class="service-container">
+				<span id="paid-icon" class="material-icons-round"> paid </span>
+				<span class="service"> Service #2 Description. </span>
+			</div>
+			<div class="service-container">
+				<span id="paid-icon" class="material-icons-round"> leaderboard </span>
+				<span class="service"> Service #3 Description. </span>
+			</div>
+		</div>
+
+		<div id="pricing-container" class="flex-container theme">
+			<div class="price-item">
+				<div class="item-option">
+						STANDARD
+				</div>
+				<span class="option-price" >
+						$59.99 / Year
+				</span>
+				<ul class=option-list>
+					<li>Feature 1</li>
+					<li>Feature 2</li>
+					<li>Feature 3</li>
+				</ul>
+
+				<input type="button" class="option-button" value="SELECT">
+
+			</div>
+			<div class="price-item">
+				<div class="item-option">
+						PREMIUM
+				</div>
+				<span class="option-price" >
+						$89.99 / Year
+				</span>
+				<ul class=option-list>
+					<li>Feature 1</li>
+					<li>Feature 2</li>
+					<li>Feature 3</li>
+					<li>Feature 4</li>
+
+				</ul>
+
+				<input type="button" class="option-button" value="SELECT">
+
+			</div>
+			<div class="price-item">
+				<div class="item-option">
+						ULTRA-ELITE
+				</div>
+				<span class="option-price" >
+						$129.99 / Year
+				</span>
+				<ul class=option-list>
+					<li>Feature 1</li>
+					<li>Feature 2</li>
+					<li>Feature 3</li>
+					<li>Feature 4</li>
+					<li>Feature 5</li>
+				</ul>
+
+				<input type="button" class="option-button" value="SELECT">
+
+			</div>
+		</div>
+
+		<div id="video-container" class="flex-container theme">
+			<span id="video-title"><strong>Winston VS Competition</strong></span>
+			<video id="video" controls muted autoplay loop>
+				<source src="Winston.mp4" type="video/mp4" />
+			</video>
+		</div>
+
+		<div id="form-container">
+			<form
+				action="https://www.freecodecamp.com/email-submit"
+				id="form"
+				class="flex-container theme"
+			>
+				<span id="form-text" class="form-item">Sign-Up Today!</span>
+				<input
+					type="name"
+					name="name"
+					id="name"
+					class="form-item"
+					placeholder="Name"
+					required
+				/>
+				<input
+					type="email"
+					name="email"
+					id="email"
+					class="form-item"
+					placeholder="Email Address"
+					required
+				/>
+				<input type="submit" id="submit" class="form-item" value="SUBMIT" />
+			</form>
+		</div>
+
+		<footer id="footer"></footer>
+	</body>
+</html>
